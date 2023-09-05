@@ -1,0 +1,252 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define your colors */
+:root {
+    --primary-color: #152039;
+    --secondary-color: #FF6341;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+#header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#header img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Hero section styles */
+#hero {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#hero .btn:hover {
+    background-color: #d14b28; /* A slightly darker shade of the secondary color on hover */
+}
+
+/* Features section styles */
+#features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+
+.feature {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    color: var(--primary-color);
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Call-to-Action section styles */
+#cta {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#cta .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#cta .btn:hover {
+    background-color: #0e1826; /* A slightly darker shade of the primary color on hover */
+}
+
+/* Footer styles */
+#footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#profile-container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#profile-pic {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#profile-info {
+    flex: 1;
+}
+
+#profile-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+#profile-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#longer-text {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#longer-text h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-top: 10px;
+}
+
+#longer-text p {
+    font-size: 16px;
+    color: #333;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color);
+    color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#logo {
+    text-align: center; 
+}
+
+#logo img {
+    width: 150px; 
+    height: auto; 
+}
