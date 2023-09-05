@@ -3,20 +3,17 @@ body, h1, h2, h3, p {
     padding: 0;
 }
 
-/* Define your colors */
 :root {
     --primary-color: #152039;
     --secondary-color: #FF6341;
 }
 
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
 }
 
-/* Header styles */
 #header {
     background-color: var(--primary-color);
     color: white;
@@ -29,7 +26,6 @@ body {
     height: 100px;
 }
 
-/* Hero section styles */
 #hero {
     background-color: var(--primary-color);
     color: white;
@@ -58,10 +54,9 @@ body {
 }
 
 #hero .btn:hover {
-    background-color: #d14b28; /* A slightly darker shade of the secondary color on hover */
+    background-color: #d14b28;
 }
 
-/* Features section styles */
 #features {
     padding: 50px 0;
     text-align: center;
@@ -95,7 +90,6 @@ body {
     font-size: 16px;
 }
 
-/* Call-to-Action section styles */
 #cta {
     background-color: var(--secondary-color);
     color: white;
@@ -124,10 +118,9 @@ body {
 }
 
 #cta .btn:hover {
-    background-color: #0e1826; /* A slightly darker shade of the primary color on hover */
+    background-color: #0e1826; 
 }
 
-/* Footer styles */
 #footer {
     background-color: var(--primary-color);
     color: white;
